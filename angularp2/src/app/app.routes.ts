@@ -12,14 +12,14 @@ import { NoEncontradoComponent } from './components/no-encontrado/no-encontrado.
 
 
 export const routes: Routes = [
-    {path: "Iniciar Sesion", component: IniciarSesionComponent},
+    {path: "Iniciar sesion", component: IniciarSesionComponent},
     {path: "Inicio", component: InicioComponent},
     {path: "Nosotros", component: NosotrosComponent},
     {path: "Privado", component: PrivadoComponent},
     {path: "Productos", component: ProductosComponent},
     {path: "Servicios", component: ServiciosComponent},
     {path: "Registrarse", component: RegistrarseComponent},
+    {path: "Contacto", component: ContactoComponent},
     {path: "", redirectTo: "Inicio", pathMatch: "full"},
     {path: "**", component  : NoEncontradoComponent},
-    {path: "Contacto", component: ContactoComponent} 
 ];

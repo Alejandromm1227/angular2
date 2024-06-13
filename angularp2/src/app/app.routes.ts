@@ -12,7 +12,7 @@ import { NoEncontradoComponent } from './components/no-encontrado/no-encontrado.
 
 
 export const routes: Routes = [
-    {path: "Iniciar sesion", component: IniciarSesionComponent},
+    {path: "Iniciar sesion", title: "Inicio De Sesion", component: IniciarSesionComponent},
     {path: "Inicio", component: InicioComponent},
     {path: "Nosotros", component: NosotrosComponent},
     {path: "Privado", component: PrivadoComponent},
